@@ -21,7 +21,7 @@ print(device)
 
 
 # Paths
-root_dir = "SmileDetection_CNN"
+root_dir = ""
 label_file = os.path.join(root_dir, "labels.txt")
 
 image_paths = natsorted(glob.glob("aug_images/*.jpg"))
